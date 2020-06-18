@@ -1,0 +1,161 @@
+.register
+{
+	margin-left: 30%;
+	width: 30%;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.login
+{
+	width: 25%;
+	margin-left: 38%;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.new
+{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.new h2
+{
+	align-self: flex-start;
+	width: 100%;
+	text-align: center;
+}
+
+.item
+{
+	padding: 0;
+	margin: 15px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-items: flex-start;
+	align-items: center;
+	background-color: #111;
+	opacity: 0.7;
+	transition: opacity 2s;
+}
+
+body
+{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),url(img/sky.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	margin-top: 10%;
+	padding: 0;
+	font-family: sans-serif;
+	color: #eee;
+}
+
+@keyframes test {
+	from { opacity: 0.7;}
+	to {opacity: 1;}
+}
+
+.item:hover
+{
+	/*background-color: #333;
+	animation-name: test;
+	animation-duration: 2s;*/
+	opacity: 1;
+	transition: opacity 1s;
+}
+
+.change_info
+{
+	margin-left: 15%;
+	width: 70%;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+}
+.past_orders
+{
+	margin-left: 15%;
+	width: 70%;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+.users
+{
+	margin-top: 10%;
+	margin-left: 5%;
+	width: 90%;
+	border: 1px solid grey;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.categories
+{
+	margin-left: 5%;
+	width: 90%;
+	margin-top: -1px;
+	border: 1px solid grey;
+}
+.products
+{
+	margin-left: 5%;
+	width: 90%;
+	margin-top: -1px;
+	border: 1px solid grey;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.edit
+{
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 10px;
+	width: 300px;
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 20%;
+}
+.add
+{
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 10px;
+	width: 300px;
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 20%;
+}
+.filter
+{
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	
+}
+.order
+{
+	margin-top: 20%;
+}
+.order_details
+{
+	margin-left: 15%;
+	width: 70%;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 20%;
+}
